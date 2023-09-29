@@ -43,7 +43,7 @@ do{
     }
 
     mediaVeiculos=mediaVeiculos+veiculos;
-} while (cidade!=2);
+} while (cidade!=200);
 mediaVeiculos=(mediaVeiculos/cidade);
 mediaAcidentesRS=(mediaAcidentesRS/cidadeRS);
 printf("\nO MAIOR indice de acidedentes e %.2f do estado %s\n",maiorAcidentes,estadoMaior);
